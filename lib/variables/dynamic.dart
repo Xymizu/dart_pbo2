@@ -1,6 +1,7 @@
-void main (){
-  dynamic jsonValue = "Hello";
-  jsonValue = 10;
-  print("Value: $jsonValue");
+void main() {
+  dynamic jsonValue = 'Hello';
 
+  jsonValue = 123; // Valid
+
+  print('Dynamic value: $jsonValue');
 }
